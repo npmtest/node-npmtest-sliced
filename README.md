@@ -1,6 +1,6 @@
 # npmtest-sliced
 
-#### test coverage for  [sliced (v1.0.1)](https://github.com/aheckmann/sliced)  [![npm package](https://img.shields.io/npm/v/npmtest-sliced.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-sliced) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-sliced.svg)](https://travis-ci.org/npmtest/node-npmtest-sliced)
+#### basic test coverage for  [sliced (v1.0.1)](https://github.com/aheckmann/sliced)  [![npm package](https://img.shields.io/npm/v/npmtest-sliced.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-sliced) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-sliced.svg)](https://travis-ci.org/npmtest/node-npmtest-sliced)
 
 #### A faster Node.js alternative to Array.prototype.slice.call(arguments)
 
@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-sliced/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-sliced/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-sliced/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-sliced/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-sliced/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-sliced/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-sliced/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-sliced/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-sliced/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-sliced/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-sliced/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-sliced/build/coverage.html/index.html)
 
@@ -80,7 +80,8 @@
     "scripts": {
         "test": "make test"
     },
-    "version": "1.0.1"
+    "version": "1.0.1",
+    "bin": {}
 }
 ```
 
